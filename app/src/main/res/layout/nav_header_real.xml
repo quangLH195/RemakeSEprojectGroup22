@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient2">
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_margin="15dp"
+                android:src="@drawable/cat_face"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#37474f"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Huy Quang"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:text="quangLH1999@ciso.io"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_setting_down"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

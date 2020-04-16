@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Your tour"
+        android:icon="@drawable/ic_your_tour"
+        android:id="@+id/menu_your_tour"
+        />
+    <item
+        android:title="Tours news"
+        android:id="@+id/menu_news_tour"
+        android:icon="@drawable/ic_person"
+        />
+    <item
+        android:title="Emergency"
+        android:id="@+id/menu_emergency"
+        android:icon="@drawable/ic_emergency"
+        />
+    <item
+        android:title="Sign out"
+        android:id="@+id/menu_sign_out"/>
+</menu>

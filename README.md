@@ -30,3 +30,5 @@ Then we can connect the android phone to laptop/PC to launch it
 Otherwise, people can install Genymotion and Virtual Box to launch it on laptop/PC
 
 Last but not least, the laptop/ PC should be connected to internet to download the program and run it
+
+[Demo Tourist App April](https://www.youtube.com/watch?v=fED8KBJjrII)
